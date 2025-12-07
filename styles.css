@@ -1,0 +1,67 @@
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.15);
+    max-width: 350px;
+    margin: 40px auto;
+}
+h1 {
+    text-align:center;
+}
+input, select, textarea {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input:focus, textarea:focus {
+  border-color:#e00719;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 102, 204, 0.5);
+} 
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
+input:valid, select:valid, textarea:valid {
+    border-color: green;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    padding-right: 40px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:100%;
+}
+button:hover {
+    background-color: #388E3C;
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+.radio-group input[type="radio"] {
+    margin-right: 7px;
+    width: 18px;
+    height: 18px;
+}
+.radio-group input[type="radio"]:checked {
+    border: 2px solid #388E3C;
+    background-color:#388E3C;
+    box-shadow:0 0 0 3px rgba(14, 204, 90, 0.2);
+}
+.radio-group input[type="radio"]:checked + label {
+    color:#388E3C;
+    font-weight: bold;
+}
+input:first-of-type {
+ font-family: arex;
+ font-weight: bold;
+    
+}
